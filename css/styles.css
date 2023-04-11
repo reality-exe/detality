@@ -1,6 +1,9 @@
 :root {
     --gradient: linear-gradient(125deg, #5748ca, #a93b44, #d11fae);
     --tiktok: linear-gradient(0deg, #00f2ea, #000000, #ff0050);
+    --discord: #7289da;
+    --patreon: #f96854;
+    --twitter: #1da1f2;
 }
 
 body {
@@ -27,50 +30,37 @@ body {
     0% {
         color: #00f2ea;
     }
-    50% {
-        color: #000000;
-    }
     100% {
         color: #ff0050;
     }
 }
 
-/* Socials Menu */
-.socials {
+/* Buttons Menu */
+.buttons {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     column-gap: 20px;
+    align-items: center;
 }
-
-i {
+.buttons-t {
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
-    stroke: #000000;
-    font-size: 25px;
-    transition: color 0.25s;
+    font-size: 20px;
 }
 
-#tiktok:hover {
-    animation: tiktok 8s infinite alternate;
-    color: var(--tiktok);
-}
-
-#patreon:hover {
-    color: #f96854;
-    transition: color 0.25s;
-}
-
-#discord:hover {
-    color: #7289da;
-    transition: color 0.25s;
-}
-
-#twitter:hover {
-    color: #1da1f2;
-    transition: color 0.25s;
+button {
+    border-style: solid !important; 
+    border-collapse: separate !important; 
+    padding: 1em;
+    background-color: #000000;
+    border: #000000;
+    border-radius: 10px !important;
+    border-width: 2px;
 }
 
 .vertical-container {
-    min-height: 100vh; /* These two lines are counted as one :-)       */
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
