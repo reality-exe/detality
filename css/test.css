@@ -1,3 +1,78 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
+:root {
+    --gradient: linear-gradient(125deg, #5748ca, #a93b44, #d11fae);
+    --tiktok: linear-gradient(0deg, #00f2ea, #000000, #ff0050);
+}
+
+body {
+    height: 100vh;
+    margin: auto;
+
+    /* Gradient Shift */
+    background-image: var(--gradient);
+    background-size: 600%;
+    background-repeat: no-repeat;
+    animation: bg-anim 50s infinite alternate;
+}
+
+@keyframes bg-anim {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
+}
+
+@keyframes tiktok {
+    0% {
+        color: #00f2ea;
+    }
+    50% {
+        color: #000000;
+    }
+    100% {
+        color: #ff0050;
+    }
+}
+
+/* Socials Menu */
+.socials {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+i {
+    color: white;
+    stroke: #000000;
+    font-size: 25px;
+    transition: color 0.25s;
+}
+
+#tiktok:hover {
+    animation: tiktok 8s infinite alternate;
+    color: var(--tiktok);
+}
+
+#patreon:hover {
+    color: #f96854;
+    transition: color 0.25s;
+}
+
+#discord:hover {
+    color: #7289da;
+    transition: color 0.25s;
+}
+
+#twitter:hover {
+    color: #1da1f2;
+    transition: color 0.25s;
+}
+
+.vertical-container {
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
