@@ -14,8 +14,8 @@
 
 :root {
 	--accent-hue: 270;
-	--accent-saturation: 79%;
-	--accent-lightness: 52%;
+	--accent-saturation: 250%;
+	--accent-lightness: 100%;
 	--accent-text-color: #fff;
 	--accent-button-action: #fff; /*	-	*/
 
@@ -37,4 +37,6 @@
 	/* Custom */
 	
 	--profile-body-background-color: #4d67ad;
+	--main-color: #1b151d;
+	--main-alt: #131214;
 }
