@@ -13,9 +13,9 @@
 @import url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/source.css);
 
 :root {
-	--accent-hue: 224;
-	--accent-saturation: 71%;
-	--accent-lightness: 61%;
+	--accent-hue: 270;
+	--accent-saturation: 79%;
+	--accent-lightness: 52%;
 	--accent-text-color: #fff;
 	--accent-button-action: #fff; /*	-	*/
 
@@ -27,10 +27,14 @@
 
 	--media-radius: 19px; /*	-	*/
 
-	--card-radius: 8px;
-	--card-radius-big: 18px; /*	-	*/
+	--card-radius: 15px;
+	--card-radius-big: 26px; /*	-	*/
 
-	--popout-radius: 8px;
-	--popout-radius-big: 18px;
-	background-image: url("https://media.discordapp.net/attachments/773311081221193778/1088687281700880474/SFW.png");
+	--popout-radius: 15px;
+	--popout-radius-big: 26px;
+
+
+	/* Custom */
+	
+	--profile-body-background-color: #4d67ad;
 }
