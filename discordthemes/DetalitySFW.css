@@ -118,3 +118,24 @@
   font-size:14px;
   text-shadow:0 0 3px #000
 }
+
+/*  Custom Shit */
+
+
+/*User Panel*/
+.withTagAsButton-OsgQ9L, .withTagless-10ooWt{
+  min-width: 212px!important;
+  position: fixed;
+  margin-top: -80px;
+  margin-left: 5px;
+  border-radius: 5px;
+}
+button[aria-label="Disable Game Activity"], button[aria-label="Enable Game Activity"], button[aria-label="Mute"], button[aria-label="Deafen"], button[aria-label="User Settings"] {
+  width: 48px;
+  background-color: var(--background-primary);
+  margin: 4px;
+  border-radius: 5px;
+}
+.container-YkUktl{
+  margin-top: 40px;
+}
