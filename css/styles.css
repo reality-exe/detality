@@ -52,7 +52,9 @@ body {
 button {
     border-style: solid !important; 
     border-collapse: separate !important; 
-    padding: 1em;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     background-color: #000000;
     border: #000000;
     border-radius: 10px !important;
