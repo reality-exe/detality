@@ -14,8 +14,8 @@
 
 :root {
 	--accent-hue: 270;
-	--accent-saturation: 250%;
-	--accent-lightness: 100%;
+	--accent-saturation: 50%;
+	--accent-lightness: 50%;
 	--accent-text-color: #fff;
 	--accent-button-action: #fff; /*	-	*/
 
