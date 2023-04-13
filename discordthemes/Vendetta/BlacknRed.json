@@ -1,7 +1,7 @@
 {
-  "name": "BlacknRed",
+  "name": "BlacknPurple",
   "version": "2.0",
-  "description": "A Black theme with red accents ",
+  "description": "A Black theme with purple accents ",
   "authors": [
     {
       "name": "RyanFol#0001",
@@ -23,8 +23,8 @@
       "#646464"
     ],
     "INTERACTIVE_NORMAL": [
-      "#D2042D",
-      "#D2042D"
+      "#310dbf",
+      "#310dbf"
     ],
     "INTERACTIVE_HOVER": [
       "#dcddde",
@@ -75,8 +75,8 @@
       "#17161b"
     ],
     "BACKGROUND_MENTIONED": [
-      "#EE4B2B",
-      "#EE4B2B"
+      "#462da1",
+      "#462da1"
     ],
     "BACKGROUND_MENTIONED_HOVER": [
       "#1E1C2D",
@@ -87,8 +87,8 @@
       "#151419"
     ],
     "BACKGROUND_MODIFIER_SELECTED": [
-      "#D2042D",
-      "#D2042D"
+      "#43228f",
+      "#43228f"
     ],
     "SCROLLBAR_THIN_THUMB": [
       "transparent",
@@ -111,55 +111,55 @@
       "#101014"
     ],
     "CHANNEL_ICON": [
-      "#D53F3F",
-      "#D53F3F"
+      "#d53f3f",
+      "#d53f3f"
     ],
     "CHANNELS_DEFAULT": [
-      "#4a4a52",
-      "#4a4a52"
+      "#4c4a52",
+      "#4c4a52"
     ],
     "HEADER_SECONDARY": [
-      "#D2042D",
-      "#D2042D"
+      "#310dbf",
+      "#310dbf"
     ]
   },
   "rawColors": {
-    "PRIMARY_600": "url(\"https://cdn.discordapp.com/attachments/1084457824744128542/1088340393302708335/20230323_015453.jpg\")",
-    "PRIMARY_500": "#17161b",
-    "PRIMARY_630": "#101014",
-    "PRIMARY_800": "#101014",
-    "BRAND_260": "#D2042D",
-    "BRAND_360": "#D2042D",
+    "PRIMARY_600": "#101014DD",
+    "PRIMARY_500": "#17161bDD",
+    "PRIMARY_630": "#101014DD",
+    "PRIMARY_800": "#101014DD",
+    "BRAND_260": "#310dbf",
+    "BRAND_360": "#310dbf",
     "WHITE": "#FFFFFF",
-    "RED_260": "#D2042D",
+    "RED_260": "#310dbf",
     "GREEN_600": "#00FF00",
-    "BRAND_300": "#D2042D",
-    "BRAND_330": "#D2042D",
-    "BRAND_345": "#D2042D",
-    "BRAND_400": "#D2042D",
-    "BRAND_430": "#D2042D",
-    "BRAND_460": "#D2042D",
-    "BRAND_500": "#D2042D",
-    "BRAND_530": "#D2042D",
-    "BRAND_560": "#D2042D",
-    "BRAND_600": "#D2042D",
-    "BRAND_630": "#D2042D",
+    "BRAND_300": "#310dbf",
+    "BRAND_330": "#310dbf",
+    "BRAND_345": "#310dbf",
+    "BRAND_400": "#310dbf",
+    "BRAND_430": "#310dbf",
+    "BRAND_460": "#310dbf",
+    "BRAND_500": "#310dbf",
+    "BRAND_530": "#310dbf",
+    "BRAND_560": "#310dbf",
+    "BRAND_600": "#310dbf",
+    "BRAND_630": "#310dbf",
     "BRAND_660": "#995f79",
     "BRAND_700": "#8f5971",
-    "RED_300": "#D2042D",
-    "RED_330": "#D2042D",
-    "RED_345": "#D2042D",
-    "RED_360": "#D2042D",
-    "RED_400": "#D2042D",
-    "RED_430": "#D2042D",
-    "RED_460": "#D2042D",
-    "RED_500": "#D2042D",
-    "RED_530": "#D2042D",
-    "RED_560": "#D2042D",
-    "RED_600": "#D2042D",
-    "RED_630": "#D2042D",
-    "RED_660": "#D2042D",
-    "RED_700": "#D2042D",
+    "RED_300": "#310dbf",
+    "RED_330": "#310dbf",
+    "RED_345": "#310dbf",
+    "RED_360": "#310dbf",
+    "RED_400": "#310dbf",
+    "RED_430": "#310dbf",
+    "RED_460": "#310dbf",
+    "RED_500": "#310dbf",
+    "RED_530": "#310dbf",
+    "RED_560": "#310dbf",
+    "RED_600": "#310dbf",
+    "RED_630": "#310dbf",
+    "RED_660": "#310dbf",
+    "RED_700": "#310dbf",
     "ORANGE_260": "#ffa500",
     "ORANGE_300": "#ffa500",
     "ORANGE_330": "#ffa500",
@@ -176,7 +176,7 @@
     "ORANGE_660": "#ffa500",
     "ORANGE_700": "#ffa500",
     "YELLOW_260": "#ffff00",
-    "YELLOW_300": "#D2042D",
+    "YELLOW_300": "#310dbf",
     "YELLOW_330": "#ffff00",
     "YELLOW_345": "#ffff00",
     "YELLOW_360": "#ffff00",
@@ -222,5 +222,5 @@
   "unsafe_colors": {
     "CHAT_GREY": "#101014"
   },
-  "color": "#D2042D"
+  "color": "#310dbf"
 }
