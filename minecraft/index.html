@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" />
+        <title>Detality</title>
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+        <link rel="stylesheet" href="/css/styles.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.2.1/axios.min.js"></script>
+        <script>
+            async function getData() {
+                var response = await axios.get(
+                    "https://api.mcsrvstat.us/3/minecraft.detality.net"
+                );
+                console.log(response.data);
+            }
+            getData();
+        </script>
+        <script
+            src="https://kit.fontawesome.com/521474c726.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <div class="center">
+            <div class="text">
+                <h1
+                    style="
+                        font-size: 60px;
+                        margin: 0;
+                        font-family: 'Dosis';
+                        user-select: none;
+                    "
+                >
+                    Detality SMP
+                </h1>
+                <p style="font-size: 30px; margin: 0; user-select: none">
+                    Yes, we have a Minecraft server~
+                </p>
+                <div
+                    style="
+                        user-select: none;
+                        margin-top: 20px;
+                        background-color: #2c2532;
+                        padding: 15px;
+                        border-radius: 10px;
+                    "
+                >
+                    IP:
+                    <span style="user-select: all; margin-left: 5px;">minecraft.detality.net</span>
+                </div>
+                <button
+                    id="discord"
+                    onclick="window.location.href='https:\/\/discord.gg\/xEqbVZPP7e';"
+                    style="margin-top: 25px"
+                >
+                    <i
+                        class="fa-brands fa-discord"
+                        style="margin-right: 10px"
+                    ></i>
+                    <span class="socials-t">Join our Discord for more information</span>
+                </button>
+            </div>
+
+            <!-- <div class="server"> -->
+
+            <!-- </div> -->
+        </div>
+        <div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+        </div>
+    </body>
+</html>

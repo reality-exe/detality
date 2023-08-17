@@ -1,0 +1,1 @@
+https://api.mcsrvstat.us/3/minecraft.detality.net
